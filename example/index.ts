@@ -1,3 +1,5 @@
-import { sum } from "../src";
+import { downloadVideo } from "../src";
 
-console.log(sum(1, 2));
+downloadVideo("https://twitter.com/mattpocockuk/status/1592130978234900484")
+  .then(console.log)
+  .catch(console.error);

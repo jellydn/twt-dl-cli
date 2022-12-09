@@ -1,5 +1,5 @@
-import {expectType} from 'tsd';
+import { expectType } from "tsd";
 
-import {sum} from '../dist/index.js';
+import { downloadVideo } from "../dist/index.js";
 
-expectType<number>(sum(1, 2));
+expectType<Promise<string | undefined>>(downloadVideo("https://twitter.com"));
