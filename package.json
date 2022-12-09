@@ -25,8 +25,9 @@
     "lint": "xo --fix",
     "prepack": "clean-pkg-json",
     "prepare": "husky install",
-    "test": "vitest",
+    "test": "vitest --run",
     "test:tsd": "tsd",
+    "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "watch": "pkgroll --watch"
   },
