@@ -1,0 +1,65 @@
+{
+  "name": "typescript-starter",
+  "version": "0.0.1",
+  "description": "Typescript starter project",
+  "repository": "https://github.com/jellydn/typescript-starter",
+  "license": "MIT",
+  "author": "Huynh Duc Dung",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": "./dist/cli.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pkgroll --env.NODE_ENV=production --minify",
+    "example": "npx tsx ./example/index.ts",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
+    "lint": "xo --fix",
+    "prepack": "clean-pkg-json",
+    "prepare": "husky install",
+    "test": "vitest",
+    "test:tsd": "tsd",
+    "typecheck": "tsc --noEmit",
+    "watch": "pkgroll --watch"
+  },
+  "xo": {
+    "rules": {
+      "import/extensions": "warn",
+      "import/order": "off"
+    },
+    "space": true
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.3.0",
+    "@commitlint/config-conventional": "17.3.0",
+    "@skypack/package-check": "0.2.2",
+    "@trivago/prettier-plugin-sort-imports": "4.0.0",
+    "clean-pkg-json": "1.2.0",
+    "husky": "8.0.2",
+    "nano-staged": "0.8.0",
+    "pkgroll": "1.8.0",
+    "prettier": "2.8.1",
+    "sort-package-json": "2.1.0",
+    "tsd": "0.25.0",
+    "tsx": "3.12.1",
+    "typescript": "4.9.4",
+    "vite": "3.2.5",
+    "vitest": "0.25.6",
+    "xo": "0.53.1"
+  },
+  "nano-staged": {
+    "*.{js,ts}": "xo --fix",
+    "*.{js,ts,css,md}": "prettier --write",
+    "package.json": "sort-package-json"
+  },
+  "tsd": {
+    "directory": "tests"
+  }
+}
