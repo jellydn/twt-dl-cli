@@ -1,6 +1,6 @@
 {
   "name": "twt-dl-cli",
-  "version": "0.1.1-0",
+  "version": "0.1.1",
   "description": "The easiest way to download any Twitter video from CLI",
   "repository": "https://github.com/jellydn/twt-dl-cli",
   "license": "MIT",
