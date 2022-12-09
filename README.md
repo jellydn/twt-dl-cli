@@ -8,16 +8,22 @@
 
 Inspired by [egoist/download-twitter-video: The easiest way to download any Twitter video](https://github.com/egoist/download-twitter-video).
 
+## Usage
+
+```sh
+npx twt-dl-cli URL
+```
+
+### Example:
+
+```sh
+npx twt-dl-cli  https://twitter.com/mattpocockuk/status/1592130978234900484
+```
+
 ## Install
 
 ```sh
 yarn install
-```
-
-## Usage
-
-```sh
-yarn build
 ```
 
 ## CLI
