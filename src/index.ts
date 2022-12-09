@@ -1,4 +1,5 @@
 import {load} from 'cheerio';
+import fetch from 'cross-fetch';
 
 export async function downloadVideo(url?: string) {
   if (!url) {
