@@ -1,5 +1,9 @@
 import {load} from 'cheerio';
 import fetch from 'cross-fetch';
+import download from 'download';
+import {createWriteStream} from 'node:fs';
+import {join} from 'node:path';
+import ora from 'ora';
 
 export async function downloadVideo(url?: string) {
   if (!url) {
@@ -36,4 +40,26 @@ export async function downloadVideo(url?: string) {
 
       return getMetaContent('video');
     });
+}
+
+// NOTE: separate spinner with download function
+// NOTE: add unit test
+export async function downloadFile(
+  fileUrl: string,
+  // eslint-disable-next-line unicorn/prefer-module
+  outputFile = join(__dirname, `${Date.now()}.mp4`), // NOTE: add output directory if needed
+) {
+  const spinner = ora('Downloading file...').start();
+
+  const writeStream = createWriteStream(outputFile);
+  writeStream.on('finish', () => {
+    spinner.succeed(`File saved as ${outputFile}`);
+  });
+
+  writeStream.on('error', error => {
+    spinner.fail(error.message);
+    console.error(error);
+  });
+
+  return download(fileUrl).pipe(writeStream);
 }
