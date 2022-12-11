@@ -13,8 +13,15 @@ Inspired by [egoist/download-twitter-video: The easiest way to download any Twit
 ## Install
 
 ```sh
-npm install -g twt-dl-cli
+npm install -g twt-dl-cli@latest
 ```
+
+## Built with
+
+- [jellydn/typescript-starter: Typescript starter project](https://github.com/jellydn/typescript-starter)
+- [privatenumber/cleye: 👁‍🗨 cleye — The intuitive & typed CLI development tool for Node.js](https://github.com/privatenumber/cleye)
+- [kevva/download: Download and extract files](https://github.com/kevva/download)
+- And ChatGPT :)
 
 ## Usage
 
