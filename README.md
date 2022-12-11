@@ -24,6 +24,9 @@ npm install -g twt-dl-cli@latest
 - [sindresorhus/ora: Elegant terminal spinner](https://github.com/sindresorhus/ora)
 - And ChatGPT :)
 
+<img width="1447" alt="image" src="https://user-images.githubusercontent.com/870029/206899075-3e620fb8-f210-488e-918e-6e6c876c8b19.png">
+
+
 ## Usage
 
 ```sh
@@ -37,6 +40,10 @@ npx twt-dl-cli@latest https://twitter.com/mattpocockuk/status/159213097823490048
 ```
 
 ![twt-dl-cli](usage.png)
+
+### TODO
+
+- [ ] Download all videos on twitter thread
 
 ## Author
 
