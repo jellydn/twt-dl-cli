@@ -3,6 +3,7 @@ import fetch from 'cross-fetch';
 import download from 'download';
 import {createWriteStream} from 'node:fs';
 import {join} from 'node:path';
+import process from 'node:process';
 import ora from 'ora';
 
 export async function downloadVideo(url?: string) {
@@ -46,8 +47,8 @@ export async function downloadVideo(url?: string) {
 // NOTE: add unit test
 export async function downloadFile(
   fileUrl: string,
-  // eslint-disable-next-line unicorn/prefer-module
-  outputFile = join(__dirname, `${Date.now()}.mp4`), // NOTE: add output directory if needed
+
+  outputFile = join(process.env.PWD ?? process.cwd(), `${Date.now()}.mp4`), // NOTE: add output directory if needed
 ) {
   const spinner = ora('Downloading file...').start();
 
