@@ -785,7 +785,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/download@^8.0.1":
+"@types/download@8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@types/download/-/download-8.0.1.tgz#9653e0deb52f1b47f659e8e8be1651c8515bc0a7"
   integrity sha512-t5DjMD6Y1DxjXtEHl7Kt+nQn9rOmVLYD8p4Swrcc5QpgyqyqR2gXTIK6RwwMnNeFJ+ZIiIW789fQKzCrK7AOFA==
