@@ -50,7 +50,7 @@
     "@commitlint/config-conventional": "17.3.0",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.0.0",
-    "@types/download": "8.0.1",
+    "@types/download": "8.0.2",
     "clean-pkg-json": "1.2.0",
     "husky": "8.0.2",
     "nano-staged": "0.8.0",
