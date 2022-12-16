@@ -2,6 +2,12 @@
   "name": "twt-dl-cli",
   "version": "0.2.0",
   "description": "The easiest way to download any Twitter video from CLI",
+  "keywords": [
+    "twt-dl-cli",
+    "video",
+    "twitter",
+    "download"
+  ],
   "repository": "https://github.com/jellydn/twt-dl-cli",
   "license": "MIT",
   "author": "Huynh Duc Dung",
@@ -48,7 +54,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.3.0",
     "@commitlint/config-conventional": "17.3.0",
-    "@skypack/package-check": "0.2.2",
+    "@skypack/package-check": "^0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.0.0",
     "@types/download": "8.0.2",
     "clean-pkg-json": "1.2.0",
