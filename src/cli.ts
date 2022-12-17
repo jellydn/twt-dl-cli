@@ -21,7 +21,7 @@ const argv = cli({
 
   // Define parameters
   parameters: [
-    '<url>', // Twitter url is required
+    '<twitter url>', // Twitter URL is required
   ],
 
   // Define flags/options
@@ -36,7 +36,7 @@ const argv = cli({
 });
 
 async function main() {
-  const video = await downloadVideo(argv._?.url);
+  const video = await downloadVideo(argv._?.twitterUrl);
   console.log(video);
   if (argv.flags.download === 'yes' && video) {
     await downloadFile(video);

@@ -8,13 +8,13 @@ import ora from 'ora';
 
 export async function downloadVideo(url?: string) {
   if (!url) {
-    throw new Error('Missing url');
+    throw new Error('Missing URL');
   }
 
   const parsedUrl = new URL(url);
 
   if (parsedUrl.hostname !== 'twitter.com') {
-    throw new Error('Not a twitter url');
+    throw new Error('Not a Twitter URL');
   }
 
   return fetch(url.replace('twitter.com', 'vxtwitter.com'), {
@@ -43,12 +43,11 @@ export async function downloadVideo(url?: string) {
     });
 }
 
-// NOTE: separate spinner with download function
-// NOTE: add unit test
+// TODO: separate spinner with download function
+// TODO: add output directory if needed
 export async function downloadFile(
   fileUrl: string,
-
-  outputFile = join(process.env.PWD ?? process.cwd(), `${Date.now()}.mp4`), // NOTE: add output directory if needed
+  outputFile = join(process.env.PWD ?? process.cwd(), `${Date.now()}.mp4`),
 ) {
   const spinner = ora('Downloading file...').start();
 
