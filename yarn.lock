@@ -4294,10 +4294,10 @@ pkg-types@^1.0.1:
     mlly "^1.0.0"
     pathe "^1.0.0"
 
-pkgroll@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-1.8.0.tgz#543438e7b79f78e3fb1bbfa7d2036cffb1fae698"
-  integrity sha512-udmzTqrlFcUxHG+KU+bYZqb1Z/2LFFRGwLg4EuOCe6t52dIFJYrWE7iAqY3/sU9EmwDQqIVoLbxX5NKj1d1h6Q==
+pkgroll@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-1.8.1.tgz#d708dea7b32845335a4822b150e36ab9dc73a529"
+  integrity sha512-IZfG5PPznmdNlERURR4fwDfx11S5HXrbtlQ2K3S7j47EI3pF1NI0teqtY+Pq11tWXogxSiYrRsp3lboEKaCx2g==
   dependencies:
     "@rollup/plugin-alias" "^3.1.9"
     "@rollup/plugin-commonjs" "^22.0.2"
