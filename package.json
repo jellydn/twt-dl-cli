@@ -65,7 +65,7 @@
     "sort-package-json": "2.4.1",
     "tsd": "0.28.1",
     "tsx": "3.12.6",
-    "typescript": "5.0.2",
+    "typescript": "5.0.3",
     "vite": "4.2.1",
     "vitest": "0.29.8",
     "xo": "0.53.1"
