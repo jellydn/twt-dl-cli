@@ -53,8 +53,8 @@
     "ora": "5.4.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.5.1",
-    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/cli": "17.6.0",
+    "@commitlint/config-conventional": "17.6.0",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.1.1",
     "clean-pkg-json": "1.2.0",
