@@ -64,7 +64,7 @@
     "prettier": "2.8.8",
     "sort-package-json": "2.4.1",
     "tsd": "0.28.1",
-    "tsx": "3.12.6",
+    "tsx": "3.12.7",
     "typescript": "5.0.4",
     "vite": "4.3.3",
     "vitest": "0.30.1",
