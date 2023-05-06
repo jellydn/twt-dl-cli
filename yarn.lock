@@ -4115,10 +4115,10 @@ pkg-types@^1.0.2:
     mlly "^1.1.1"
     pathe "^1.1.0"
 
-pkgroll@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-1.9.0.tgz#f26d418614fefcc7c9f0eba14031bbc1de296be4"
-  integrity sha512-/DU749mcLLo3NHvCNi87nIIQkzk0nh3ZIq4fRWmgr1V+2UTJRgVCvg/nxn2Hz+Mv4j7CTxutdAOOgmu+wSi5bw==
+pkgroll@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-1.10.0.tgz#5cf519b6937fc117de4e21e2e85bff130923ba6b"
+  integrity sha512-ZxOcstDncBOBSjXu7zhcldhKaBnKwjb4wZNoSkNmMt/9X5wTYz3wLhL76f1nDy/BKiMK2Xki4GxocYal/bNBag==
   dependencies:
     "@rollup/plugin-alias" "^4.0.3"
     "@rollup/plugin-commonjs" "^24.0.1"
