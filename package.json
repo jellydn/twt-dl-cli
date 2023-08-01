@@ -28,7 +28,7 @@
     "cli": "npx tsx ./src/cli.ts",
     "example": "npx tsx ./example/index.ts",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
-    "lint": "xo --fix",
+    "lint": "eslint --fix",
     "prepack": "clean-pkg-json",
     "prepare": "husky install",
     "test": "vitest --run",
@@ -36,13 +36,6 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "watch": "pkgroll --watch"
-  },
-  "xo": {
-    "rules": {
-      "import/extensions": "warn",
-      "import/order": "off"
-    },
-    "space": true
   },
   "dependencies": {
     "@types/download": "8.0.2",
@@ -57,7 +50,11 @@
     "@commitlint/config-conventional": "17.6.7",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.2.0",
+    "@typescript-eslint/eslint-plugin": "6.2.1",
+    "@typescript-eslint/parser": "6.2.1",
     "clean-pkg-json": "1.2.0",
+    "eslint": "8.46.0",
+    "eslint-config-productsway": "1.1.1",
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
     "pkgroll": "1.10.0",
@@ -66,12 +63,11 @@
     "tsd": "0.28.1",
     "tsx": "3.12.7",
     "typescript": "5.1.6",
-    "vite": "4.4.7",
-    "vitest": "0.33.0",
-    "xo": "0.55.0"
+    "vite": "4.4.8",
+    "vitest": "0.33.0"
   },
   "nano-staged": {
-    "*.{js,ts}": "xo --fix",
+    "*.{js,ts}": "eslint --fix",
     "*.{js,ts,css,md}": "prettier --write",
     "package.json": "sort-package-json"
   },

@@ -1,10 +1,10 @@
-import {cli} from 'cleye';
+import { cli } from "cleye";
 
-import {downloadFile, downloadVideo} from '.';
+import { downloadFile, downloadVideo } from ".";
 
-const downloadOptions = ['yes', 'no'] as const;
+const downloadOptions = ["yes", "no"] as const;
 
-type Downloads = typeof downloadOptions[number];
+type Downloads = (typeof downloadOptions)[number];
 
 // Custom type function
 function downloadSchema(download: Downloads) {
@@ -17,11 +17,11 @@ function downloadSchema(download: Downloads) {
 
 // Parse argv
 const argv = cli({
-  name: 'twt-dl-cli',
+  name: "twt-dl-cli",
 
   // Define parameters
   parameters: [
-    '<twitter url>', // Twitter URL is required
+    "<twitter url>", // Twitter URL is required
   ],
 
   // Define flags/options
@@ -29,8 +29,8 @@ const argv = cli({
     // Parses `--download` as a string
     download: {
       type: downloadSchema,
-      description: 'Allow to download video (yes/no)',
-      default: 'yes',
+      description: "Allow to download video (yes/no)",
+      default: "yes",
     },
   },
 });
@@ -38,10 +38,9 @@ const argv = cli({
 async function main() {
   const video = await downloadVideo(argv._?.twitterUrl);
   console.log(video);
-  if (argv.flags.download === 'yes' && video) {
+  if (argv.flags.download === "yes" && video) {
     await downloadFile(video);
   }
 }
 
-// eslint-disable-next-line  unicorn/prefer-top-level-await
 main().catch(console.error);
