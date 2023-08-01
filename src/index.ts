@@ -1,10 +1,11 @@
 import { load } from "cheerio";
 import fetch from "cross-fetch";
 import download from "download";
+import ora from "ora";
+
 import { createWriteStream } from "node:fs";
 import { join } from "node:path";
 import process from "node:process";
-import ora from "ora";
 
 export async function downloadVideo(url?: string) {
   if (!url) {
