@@ -55,7 +55,7 @@
     "clean-pkg-json": "1.2.0",
     "consola": "3.2.3",
     "eslint": "8.46.0",
-    "eslint-config-productsway": "1.1.1",
+    "eslint-config-productsway": "1.2.0",
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
     "pkgroll": "1.11.0",
