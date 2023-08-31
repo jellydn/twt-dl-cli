@@ -61,7 +61,7 @@
     "pkgroll": "1.11.0",
     "prettier": "3.0.3",
     "sort-package-json": "2.5.1",
-    "tsd": "0.28.1",
+    "tsd": "0.29.0",
     "tsx": "3.12.7",
     "typescript": "5.2.2",
     "vite": "4.4.9",
