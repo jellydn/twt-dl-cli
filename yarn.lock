@@ -684,10 +684,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/download@8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@types/download/-/download-8.0.2.tgz#2ef0a8b19caec152b51a2efe2e99a6795dcf1ec2"
-  integrity sha512-z1Jbba+2mUP3LuQ6EaH9xsVElphj7eY7UMCnIQ5Jw6L4ZZOC3oizFo7MbyjUx8DRMupsZvEZZfXnTmLEPQFzQg==
+"@types/download@8.0.3":
+  version "8.0.3"
+  resolved "https://registry.yarnpkg.com/@types/download/-/download-8.0.3.tgz#63011c1361b2083fbe4a3cdb1c515b7ae0749593"
+  integrity sha512-IDwXjU7zCtuFVvI0Plnb02TpXyj3RA4YeOKQvEfsjdJeWxZ9hTl6lxeNsU2bLWn0aeAS7fyMl74w/TbdOlS2KQ==
   dependencies:
     "@types/decompress" "*"
     "@types/got" "^9"
