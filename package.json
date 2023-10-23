@@ -49,7 +49,7 @@
     "@commitlint/cli": "18.0.0",
     "@commitlint/config-conventional": "18.0.0",
     "@skypack/package-check": "0.2.2",
-    "@trivago/prettier-plugin-sort-imports": "4.2.0",
+    "@trivago/prettier-plugin-sort-imports": "4.2.1",
     "@typescript-eslint/eslint-plugin": "6.8.0",
     "@typescript-eslint/parser": "6.8.0",
     "clean-pkg-json": "1.2.0",
