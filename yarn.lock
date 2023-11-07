@@ -647,10 +647,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/download@8.0.4":
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/@types/download/-/download-8.0.4.tgz#b8ffe844ac7cca87d6d5b9b4ccf06fbe145c3226"
-  integrity sha512-MxLqKeWHn6rOYaTCa/pTL9lxOWQjbRbOxKux1jfOdo/hTDqdt0UXcRgH2daOamOsW18tFNRSQBG6m0UBfNxkdw==
+"@types/download@8.0.5":
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/@types/download/-/download-8.0.5.tgz#5d800d1268343b43189f5cd0c92cc914a7786ed3"
+  integrity sha512-Ad68goc/BsL3atP3OP/lWKAKhiC6FduN1mC5yg9lZuGYmUY7vyoWBcXgt8GE9OzVWRq5IBXwm4o/QiE+gipZAg==
   dependencies:
     "@types/decompress" "*"
     "@types/got" "^9"
