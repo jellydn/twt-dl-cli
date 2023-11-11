@@ -4657,10 +4657,10 @@ tsd@0.29.0:
     path-exists "^4.0.0"
     read-pkg-up "^7.0.0"
 
-tsx@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.1.0.tgz#d63aa74aa23a82502ea31704760719ba26938434"
-  integrity sha512-u4l17Yd63Wsk2fzNn1wZCmcS9kwJ/2ysl7wuoVggv2hd3NjLA5JQPpyJMXoWSXOwOvoQUzNcu/sf/35HEsnXsg==
+tsx@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.1.1.tgz#cd08732708aad17b28c28358c341b1d9d0ed21bb"
+  integrity sha512-zyPn5BFMB0TB5kMLbYPNx4x/oL/oSlaecdKCv6WeJ0TeSEfx8RTJWjuB5TZ2dSewktgfBsBO/HNA9mrMWqLXMA==
   dependencies:
     esbuild "~0.18.20"
     get-tsconfig "^4.7.2"
