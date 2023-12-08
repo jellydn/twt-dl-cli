@@ -65,7 +65,7 @@
     "tsx": "4.6.2",
     "typescript": "5.3.3",
     "vite": "5.0.7",
-    "vitest": "0.34.6"
+    "vitest": "1.0.2"
   },
   "nano-staged": {
     "*.{js,ts}": "eslint --fix",
