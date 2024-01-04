@@ -46,8 +46,8 @@
     "ora": "7.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.3",
-    "@commitlint/config-conventional": "18.4.3",
+    "@commitlint/cli": "18.4.4",
+    "@commitlint/config-conventional": "18.4.4",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@typescript-eslint/eslint-plugin": "6.17.0",
@@ -65,7 +65,7 @@
     "tsx": "4.7.0",
     "typescript": "5.3.3",
     "vite": "5.0.10",
-    "vitest": "1.1.1"
+    "vitest": "1.1.2"
   },
   "nano-staged": {
     "*.{js,ts}": "eslint --fix",
