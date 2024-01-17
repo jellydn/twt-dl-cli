@@ -4119,10 +4119,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==
 
-prettier@3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.3.tgz#98501d99141a9a10d5ceaf74cf39c8b7cbddd380"
-  integrity sha512-QNhUTBq+mqt1oH1dTfY3phOKNhcDdJkfttHI6u0kj7M2+c+7fmNKlgh2GhnHiqMcbxJ+a0j2igz/2jfl9QKLuw==
+prettier@3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.4.tgz#4723cadeac2ce7c9227de758e5ff9b14e075f283"
+  integrity sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==
 
 pretty-format@^29.7.0:
   version "29.7.0"
@@ -4883,10 +4883,10 @@ tsconfig-paths@^3.14.2:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tsd@0.30.3:
-  version "0.30.3"
-  resolved "https://registry.yarnpkg.com/tsd/-/tsd-0.30.3.tgz#8dbec4ae313408604db507c22f7f325c664ed234"
-  integrity sha512-xoEp6JPqpT9Ti9wGX5qgy7URp0lrmxN7YkbsyphBzdc1SYiXvJYgRXSIVvSZz42+/Wd/R1kBOMbgGC6rtiKxqQ==
+tsd@0.30.4:
+  version "0.30.4"
+  resolved "https://registry.yarnpkg.com/tsd/-/tsd-0.30.4.tgz#bd7ab29befd23fb4d1c827c3db740a930a626ca1"
+  integrity sha512-ncC4SwAeUk0OTcXt5h8l0/gOLHJSp9ogosvOADT6QYzrl0ITm398B3wkz8YESqefIsEEwvYAU8bvo7/rcN/M0Q==
   dependencies:
     "@tsd/typescript" "~5.3.3"
     eslint-formatter-pretty "^4.1.0"
