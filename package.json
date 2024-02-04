@@ -59,7 +59,7 @@
     "husky": "8.0.3",
     "nano-staged": "0.8.0",
     "pkgroll": "2.0.1",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "sort-package-json": "2.7.0",
     "tsd": "0.30.4",
     "tsx": "4.7.0",
