@@ -46,8 +46,8 @@
     "ora": "8.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.2.1",
-    "@commitlint/config-conventional": "19.1.0",
+    "@commitlint/cli": "19.2.2",
+    "@commitlint/config-conventional": "19.2.2",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@typescript-eslint/eslint-plugin": "7.6.0",
