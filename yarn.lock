@@ -4022,10 +4022,10 @@ pkg-types@^1.0.3, pkg-types@^1.1.0:
     mlly "^1.7.0"
     pathe "^1.1.2"
 
-pkgroll@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.0.2.tgz#4719cd4519a351c0a6003c1829a2a46a350b9624"
-  integrity sha512-gRQ293zs67H2nN/CKwdLnlxCKpE5qi5rJwVvDUqep8qOLs57PlTl3MAXmLlFztwI2Iv6mP9k5BSlhBjzFJmerg==
+pkgroll@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/pkgroll/-/pkgroll-2.1.0.tgz#4234cd37074b19bfcde9b40bf938496f0a053a66"
+  integrity sha512-oOOPiRVNB2oe/VnYaZsApPeiAAOWnkh5gMsnqeYFUgT1sHuCTpdQ0F1o5Xn880ZiYFuIX/D/+Oywe9MaR/3SeA==
   dependencies:
     "@rollup/plugin-alias" "^5.1.0"
     "@rollup/plugin-commonjs" "^25.0.7"
@@ -4808,10 +4808,10 @@ tsd@0.31.0:
     path-exists "^4.0.0"
     read-pkg-up "^7.0.0"
 
-tsx@4.10.3:
-  version "4.10.3"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.10.3.tgz#c0b1dac1e3ebb3db4465363dc8eef7b3ae0e7538"
-  integrity sha512-f0g60aFSVRVkzcQkEflh8fPLRfmt+HJHgWi/plG5UgvVaV+9TcpOwJ0sZJSACXmwmjMPg9yQR0BhTLbhkfV2uA==
+tsx@4.10.4:
+  version "4.10.4"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.10.4.tgz#4a24716968702ab0d917ef03ed58eee6e8b2646d"
+  integrity sha512-Gtg9qnZWNqC/OtcgiXfoAUdAKx3/cgKOYvEocAsv+m21MV/eKpV/WUjRXe6/sDCaGBl2/v8S6v29BpUnGMCX5A==
   dependencies:
     esbuild "~0.20.2"
     get-tsconfig "^4.7.5"
