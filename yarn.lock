@@ -4945,10 +4945,10 @@ tsconfig-paths@^3.15.0:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tsd@0.31.0:
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/tsd/-/tsd-0.31.0.tgz#8fe1e19f2116c5208732ab10e1b435b4b0e06559"
-  integrity sha512-yjBiQ5n8OMv/IZOuhDjBy0ZLCoJ7rky/RxRh5W4sJ0oNNCU/kf6s3puPAkGNi59PptDdkcpUm+RsKSdjR2YbNg==
+tsd@0.31.1:
+  version "0.31.1"
+  resolved "https://registry.yarnpkg.com/tsd/-/tsd-0.31.1.tgz#350f8332169b30faf50ad0b3e66fe87f51b1d4c7"
+  integrity sha512-sSL84A0SFwx2xGMWrxlGaarKFSQszWjJS2vgNDDLwatytzg2aq6ShlwHsBYxRNmjzXISODwMva5ZOdAg/4AoOA==
   dependencies:
     "@tsd/typescript" "~5.4.3"
     eslint-formatter-pretty "^4.1.0"
@@ -4958,10 +4958,10 @@ tsd@0.31.0:
     path-exists "^4.0.0"
     read-pkg-up "^7.0.0"
 
-tsx@4.15.5:
-  version "4.15.5"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.15.5.tgz#9c1ddb10ed0035c595c9b3e00ae40a3647a94c82"
-  integrity sha512-iKi8jQ2VBmZ2kU/FkGkL2OSHBHsazsUzsdC/W/RwhKIEsIoZ1alCclZHP5jGfNHEaEWUJFM1GquzCf+4db3b0w==
+tsx@4.15.6:
+  version "4.15.6"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.15.6.tgz#4522ed093f7fa54f031a7a999274e8b35dbf3165"
+  integrity sha512-is0VQQlfNZRHEuSSTKA6m4xw74IU4AizmuB6lAYLRt9XtuyeQnyJYexhNZOPCB59SqC4JzmSzPnHGBXxf3k0hA==
   dependencies:
     esbuild "~0.21.4"
     get-tsconfig "^4.7.5"
