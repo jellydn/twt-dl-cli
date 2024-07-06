@@ -1,7 +1,0 @@
-{
-  "importOrder": ["^node:(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true,
-  "semi": true,
-  "plugins": ["@trivago/prettier-plugin-sort-imports"]
-}

@@ -27,8 +27,7 @@
     "build": "pkgroll --env.NODE_ENV=production --minify",
     "cli": "npx tsx ./src/cli.ts",
     "example": "npx tsx ./example/index.ts",
-    "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
-    "lint": "eslint --fix",
+    "lint": "biome check --fix",
     "prepack": "clean-pkg-json",
     "prepare": "husky install",
     "test": "vitest --run",
@@ -36,6 +35,11 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "watch": "pkgroll --watch"
+  },
+  "nano-staged": {
+    "*.{js,ts}": "biome lint --fix",
+    "*.{js,ts,css,md}": "prettier --write",
+    "package.json": "sort-package-json"
   },
   "dependencies": {
     "@types/download": "8.0.5",
@@ -46,16 +50,13 @@
     "ora": "8.0.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.3",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
-    "@typescript-eslint/eslint-plugin": "7.15.0",
-    "@typescript-eslint/parser": "7.15.0",
     "clean-pkg-json": "1.2.0",
     "consola": "3.2.3",
-    "eslint": "8.57.0",
-    "eslint-config-productsway": "1.3.3",
     "husky": "9.0.11",
     "nano-staged": "0.8.0",
     "pkgroll": "2.1.1",
@@ -66,11 +67,6 @@
     "typescript": "5.5.3",
     "vite": "5.3.3",
     "vitest": "1.6.0"
-  },
-  "nano-staged": {
-    "*.{js,ts}": "eslint --fix",
-    "*.{js,ts,css,md}": "prettier --write",
-    "package.json": "sort-package-json"
   },
   "tsd": {
     "directory": "tests"

@@ -12,7 +12,7 @@ export async function downloadVideo(url?: string) {
     throw new Error("Missing URL");
   }
 
-  const newUrl = url.replace("x.com", "twitter.com")
+  const newUrl = url.replace("x.com", "twitter.com");
 
   const parsedUrl = new URL(newUrl);
 

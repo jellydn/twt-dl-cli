@@ -1,6 +1,6 @@
 import { expectType } from "tsd";
 
-import { WriteStream } from "node:fs";
+import type { WriteStream } from "node:fs";
 
 import { downloadFile, downloadVideo } from "../dist/index.js";
 
