@@ -50,8 +50,8 @@
     "@commitlint/config-conventional": "19.2.2",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
-    "@typescript-eslint/eslint-plugin": "7.14.1",
-    "@typescript-eslint/parser": "7.14.1",
+    "@typescript-eslint/eslint-plugin": "7.15.0",
+    "@typescript-eslint/parser": "7.15.0",
     "clean-pkg-json": "1.2.0",
     "consola": "3.2.3",
     "eslint": "8.57.0",
@@ -62,9 +62,9 @@
     "prettier": "3.3.2",
     "sort-package-json": "2.10.0",
     "tsd": "0.31.1",
-    "tsx": "4.16.0",
-    "typescript": "5.5.2",
-    "vite": "5.3.2",
+    "tsx": "4.16.2",
+    "typescript": "5.5.3",
+    "vite": "5.3.3",
     "vitest": "1.6.0"
   },
   "nano-staged": {
