@@ -43,7 +43,7 @@ importers:
         specifier: 4.3.0
         version: 4.3.0(prettier@3.3.2)
       '@types/node':
-        specifier: ^20.14.10
+        specifier: 20.14.10
         version: 20.14.10
       clean-pkg-json:
         specifier: 1.2.0
