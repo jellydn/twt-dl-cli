@@ -11,15 +11,10 @@
   "repository": "https://github.com/jellydn/twt-dl-cli",
   "license": "MIT",
   "author": "Huynh Duc Dung",
-  "exports": {
-    "require": "./dist/index.js",
-    "import": "./dist/index.mjs",
-    "types": "./dist/index.d.ts"
-  },
-  "main": "./dist/index.js",
+  "type": "module",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "bin": "./dist/cli.js",
+  "bin": "./dist/cli.mjs",
   "files": [
     "dist"
   ],
