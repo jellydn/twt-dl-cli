@@ -29,7 +29,6 @@
     "example": "npx tsx ./example/index.ts",
     "lint": "biome check --fix",
     "prepack": "clean-pkg-json",
-    "prepare": "husky install",
     "test": "vitest --run",
     "test:tsd": "tsd",
     "test:watch": "vitest",
