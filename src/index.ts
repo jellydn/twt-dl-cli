@@ -12,13 +12,15 @@ export async function downloadVideo(url?: string) {
     throw new Error("Missing URL");
   }
 
-  const parsedUrl = new URL(url);
+  const newUrl = url.replace("x.com", "twitter.com")
+
+  const parsedUrl = new URL(newUrl);
 
   if (parsedUrl.hostname !== "twitter.com") {
     throw new Error("Not a Twitter URL");
   }
 
-  return fetch(url.replace("twitter.com", "vxtwitter.com"), {
+  return fetch(newUrl.replace("twitter.com", "vxtwitter.com"), {
     headers: {
       "User-Agent": "TelegramBot (like TwitterBot)",
     },
