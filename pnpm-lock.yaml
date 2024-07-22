@@ -32,7 +32,7 @@ importers:
         version: 1.8.3
       '@commitlint/cli':
         specifier: 19.3.0
-        version: 19.3.0(@types/node@20.14.11)(typescript@5.5.3)
+        version: 19.3.0(@types/node@20.14.11)(typescript@5.5.4)
       '@commitlint/config-conventional':
         specifier: 19.2.2
         version: 19.2.2
@@ -59,7 +59,7 @@ importers:
         version: 0.8.0
       pkgroll:
         specifier: 2.4.1
-        version: 2.4.1(typescript@5.5.3)
+        version: 2.4.1(typescript@5.5.4)
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -73,8 +73,8 @@ importers:
         specifier: 4.16.2
         version: 4.16.2
       typescript:
-        specifier: 5.5.3
-        version: 5.5.3
+        specifier: 5.5.4
+        version: 5.5.4
       vite:
         specifier: 5.3.4
         version: 5.3.4(@types/node@20.14.11)
@@ -2290,8 +2290,8 @@ packages:
   type-flag@3.0.0:
     resolution: {integrity: sha512-3YaYwMseXCAhBB14RXW5cRQfJQlEknS6i4C8fCfeUdS3ihG9EdccdR9kt3vP73ZdeTGmPb4bZtkDn5XMIn1DLA==}
 
-  typescript@5.5.3:
-    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2558,11 +2558,11 @@ snapshots:
   '@biomejs/cli-win32-x64@1.8.3':
     optional: true
 
-  '@commitlint/cli@19.3.0(@types/node@20.14.11)(typescript@5.5.3)':
+  '@commitlint/cli@19.3.0(@types/node@20.14.11)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.3.0
       '@commitlint/lint': 19.2.2
-      '@commitlint/load': 19.2.0(@types/node@20.14.11)(typescript@5.5.3)
+      '@commitlint/load': 19.2.0(@types/node@20.14.11)(typescript@5.5.4)
       '@commitlint/read': 19.2.1
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -2609,15 +2609,15 @@ snapshots:
       '@commitlint/rules': 19.0.3
       '@commitlint/types': 19.0.3
 
-  '@commitlint/load@19.2.0(@types/node@20.14.11)(typescript@5.5.3)':
+  '@commitlint/load@19.2.0(@types/node@20.14.11)(typescript@5.5.4)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
       '@commitlint/resolve-extends': 19.1.0
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
-      cosmiconfig: 9.0.0(typescript@5.5.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.14.11)(cosmiconfig@9.0.0(typescript@5.5.3))(typescript@5.5.3)
+      cosmiconfig: 9.0.0(typescript@5.5.4)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.14.11)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3285,21 +3285,21 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.14.11)(cosmiconfig@9.0.0(typescript@5.5.3))(typescript@5.5.3):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@20.14.11)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
       '@types/node': 20.14.11
-      cosmiconfig: 9.0.0(typescript@5.5.3)
+      cosmiconfig: 9.0.0(typescript@5.5.4)
       jiti: 1.21.6
-      typescript: 5.5.3
+      typescript: 5.5.4
 
-  cosmiconfig@9.0.0(typescript@5.5.3):
+  cosmiconfig@9.0.0(typescript@5.5.4):
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
 
   cross-fetch@4.0.0:
     dependencies:
@@ -4171,7 +4171,7 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  pkgroll@2.4.1(typescript@5.5.3):
+  pkgroll@2.4.1(typescript@5.5.4):
     dependencies:
       '@rollup/plugin-alias': 5.1.0(rollup@4.19.0)
       '@rollup/plugin-commonjs': 26.0.1(rollup@4.19.0)
@@ -4184,7 +4184,7 @@ snapshots:
       magic-string: 0.30.10
       rollup: 4.19.0
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.5.4
 
   plur@4.0.0:
     dependencies:
@@ -4515,7 +4515,7 @@ snapshots:
 
   type-flag@3.0.0: {}
 
-  typescript@5.5.3: {}
+  typescript@5.5.4: {}
 
   unbzip2-stream@1.4.3:
     dependencies:
