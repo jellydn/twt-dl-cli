@@ -52,7 +52,7 @@
     "@types/node": "20.14.12",
     "clean-pkg-json": "1.2.0",
     "consola": "3.2.3",
-    "husky": "9.1.1",
+    "husky": "9.1.2",
     "nano-staged": "0.8.0",
     "pkgroll": "2.4.1",
     "prettier": "3.3.3",
@@ -60,7 +60,7 @@
     "tsd": "0.31.1",
     "tsx": "4.16.2",
     "typescript": "5.5.4",
-    "vite": "5.3.4",
+    "vite": "5.3.5",
     "vitest": "2.0.4"
   },
   "packageManager": "pnpm@9.6.0",
