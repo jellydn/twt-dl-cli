@@ -58,8 +58,8 @@ importers:
         specifier: 0.8.0
         version: 0.8.0
       pkgroll:
-        specifier: 2.4.3
-        version: 2.4.3(typescript@5.6.2)
+        specifier: 2.5.0
+        version: 2.5.0(typescript@5.6.2)
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -70,8 +70,8 @@ importers:
         specifier: 0.31.2
         version: 0.31.2
       tsx:
-        specifier: 4.19.0
-        version: 4.19.0
+        specifier: 4.19.1
+        version: 4.19.1
       typescript:
         specifier: 5.6.2
         version: 5.6.2
@@ -1952,8 +1952,8 @@ packages:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
 
-  pkgroll@2.4.3:
-    resolution: {integrity: sha512-x61KzqWojsuDJJwtxwI+aH2QEGhixLg6y9NmahJI+Uwk0jzC7nJDkDSRjAmgb2ET+Wx8J488EsGrlK7NxN80Cw==}
+  pkgroll@2.5.0:
+    resolution: {integrity: sha512-nIbxukMp9i63is1Aq8wIHZcNcJyZJRZ340HF7yP3y+TBZ5P34ARI67dBChvCz4DKPaEZu8hRHM+mnDw3G471uA==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -2279,8 +2279,8 @@ packages:
     engines: {node: '>=14.16'}
     hasBin: true
 
-  tsx@4.19.0:
-    resolution: {integrity: sha512-bV30kM7bsLZKZIOCHeMNVMJ32/LuJzLVajkQI/qf92J2Qr08ueLQvW00PUZGiuLPP760UINwupgUj8qrSCPUKg==}
+  tsx@4.19.1:
+    resolution: {integrity: sha512-0flMz1lh74BR4wOvBjuh9olbnwqCPc35OOlfyzHba0Dc+QNUeWX/Gq2YTbnwcWPO3BMd8fkzRVrHcsR+a7z7rA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -4215,7 +4215,7 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  pkgroll@2.4.3(typescript@5.6.2):
+  pkgroll@2.5.0(typescript@5.6.2):
     dependencies:
       '@rollup/plugin-alias': 5.1.0(rollup@4.21.2)
       '@rollup/plugin-commonjs': 26.0.1(rollup@4.21.2)
@@ -4544,7 +4544,7 @@ snapshots:
       path-exists: 4.0.0
       read-pkg-up: 7.0.1
 
-  tsx@4.19.0:
+  tsx@4.19.1:
     dependencies:
       esbuild: 0.23.1
       get-tsconfig: 4.8.0
