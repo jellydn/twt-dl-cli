@@ -52,7 +52,7 @@
     "@types/node": "20.16.5",
     "clean-pkg-json": "1.2.0",
     "consola": "3.2.3",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "nano-staged": "0.8.0",
     "pkgroll": "2.4.3",
     "prettier": "3.3.3",
