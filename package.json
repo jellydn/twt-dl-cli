@@ -48,7 +48,7 @@
     "@commitlint/cli": "19.6.1",
     "@commitlint/config-conventional": "19.6.0",
     "@skypack/package-check": "0.2.2",
-    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "@trivago/prettier-plugin-sort-imports": "5.2.0",
     "@types/node": "22.10.2",
     "clean-pkg-json": "1.2.0",
     "consola": "3.2.3",
