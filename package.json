@@ -51,7 +51,7 @@
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/node": "22.10.2",
     "clean-pkg-json": "1.2.0",
-    "consola": "3.2.3",
+    "consola": "3.3.0",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
     "pkgroll": "2.5.1",
@@ -63,7 +63,7 @@
     "vite": "6.0.4",
     "vitest": "2.1.8"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "pnpm@9.15.1",
   "tsd": {
     "directory": "tests"
   }
