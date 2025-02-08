@@ -58,8 +58,8 @@ importers:
         specifier: 0.8.0
         version: 0.8.0
       pkgroll:
-        specifier: 2.8.0
-        version: 2.8.0(typescript@5.7.3)
+        specifier: 2.8.2
+        version: 2.8.2(typescript@5.7.3)
       prettier:
         specifier: 3.4.2
         version: 3.4.2
@@ -1207,6 +1207,9 @@ packages:
   eslint-rule-docs@1.1.235:
     resolution: {integrity: sha512-+TQ+x4JdTnDoFEXXb3fDvfGOwnyNV7duH8fXWTPD1ieaBmB8omj7Gw/pMBBu4uI2uJCCU8APDaQJzWuXnTsH4A==}
 
+  estree-walker@0.6.1:
+    resolution: {integrity: sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==}
+
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
 
@@ -1865,8 +1868,8 @@ packages:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
 
-  pkgroll@2.8.0:
-    resolution: {integrity: sha512-kDv99s1Hmv27wC9zI45HlUvs56Oe50tQvwPfdZexSEHeffS3bUNOgbAGr+IGnGhJ5QR5KQuE1/EFFtuZ+ouNOQ==}
+  pkgroll@2.8.2:
+    resolution: {integrity: sha512-YYLG7vV1PjF9B7UPB37m45QOvICSvLoh7MzKfgOshzE4S75YIN3UqOCGUpJ0fT+5WjqMQ0IF5rywiIW5xHcleQ==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -1965,6 +1968,9 @@ packages:
   reusify@1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
+
+  rollup-pluginutils@2.8.2:
+    resolution: {integrity: sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==}
 
   rollup@4.34.0:
     resolution: {integrity: sha512-+4C/cgJ9w6sudisA0nZz0+O7lTP9a3CzNLsoDwaRumM8QHwghUsu6tqHXiTmNUp/rqNiM14++7dkzHDyCRs0Jg==}
@@ -3395,6 +3401,8 @@ snapshots:
 
   eslint-rule-docs@1.1.235: {}
 
+  estree-walker@0.6.1: {}
+
   estree-walker@2.0.2: {}
 
   estree-walker@3.0.3:
@@ -3970,7 +3978,7 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  pkgroll@2.8.0(typescript@5.7.3):
+  pkgroll@2.8.2(typescript@5.7.3):
     dependencies:
       '@rollup/plugin-alias': 5.1.1(rollup@4.34.0)
       '@rollup/plugin-commonjs': 28.0.2(rollup@4.34.0)
@@ -3983,6 +3991,7 @@ snapshots:
       esbuild: 0.24.2
       magic-string: 0.30.17
       rollup: 4.34.0
+      rollup-pluginutils: 2.8.2
     optionalDependencies:
       typescript: 5.7.3
 
@@ -4079,6 +4088,10 @@ snapshots:
       signal-exit: 4.1.0
 
   reusify@1.0.4: {}
+
+  rollup-pluginutils@2.8.2:
+    dependencies:
+      estree-walker: 0.6.1
 
   rollup@4.34.0:
     dependencies:
