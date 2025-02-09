@@ -41,7 +41,7 @@ importers:
         version: 0.2.2
       '@trivago/prettier-plugin-sort-imports':
         specifier: 5.2.2
-        version: 5.2.2(prettier@3.4.2)
+        version: 5.2.2(prettier@3.5.0)
       '@types/node':
         specifier: 22.13.1
         version: 22.13.1
@@ -61,8 +61,8 @@ importers:
         specifier: 2.8.2
         version: 2.8.2(typescript@5.7.3)
       prettier:
-        specifier: 3.4.2
-        version: 3.4.2
+        specifier: 3.5.0
+        version: 3.5.0
       sort-package-json:
         specifier: 2.14.0
         version: 2.14.0
@@ -1890,8 +1890,8 @@ packages:
     resolution: {integrity: sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==}
     engines: {node: '>=4'}
 
-  prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
+  prettier@3.5.0:
+    resolution: {integrity: sha512-quyMrVt6svPS7CjQ9gKb3GLEX/rl3BCL2oa/QkNcXv4YNVBC9olt3s+H7ukto06q7B1Qz46PbrKLO34PR6vXcA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2860,7 +2860,7 @@ snapshots:
       kleur: 4.1.5
       yargs-parser: 20.2.9
 
-  '@trivago/prettier-plugin-sort-imports@5.2.2(prettier@3.4.2)':
+  '@trivago/prettier-plugin-sort-imports@5.2.2(prettier@3.5.0)':
     dependencies:
       '@babel/generator': 7.26.5
       '@babel/parser': 7.26.7
@@ -2868,7 +2868,7 @@ snapshots:
       '@babel/types': 7.26.7
       javascript-natural-sort: 0.7.1
       lodash: 4.17.21
-      prettier: 3.4.2
+      prettier: 3.5.0
     transitivePeerDependencies:
       - supports-color
 
@@ -4007,7 +4007,7 @@ snapshots:
 
   prepend-http@2.0.0: {}
 
-  prettier@3.4.2: {}
+  prettier@3.5.0: {}
 
   pretty-format@29.7.0:
     dependencies:
