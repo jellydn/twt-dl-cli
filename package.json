@@ -54,7 +54,7 @@
     "consola": "3.4.0",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
-    "pkgroll": "2.10.0",
+    "pkgroll": "2.11.0",
     "prettier": "3.5.2",
     "sort-package-json": "2.14.0",
     "tsd": "0.31.2",
