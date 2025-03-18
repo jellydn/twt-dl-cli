@@ -51,7 +51,7 @@
     "@trivago/prettier-plugin-sort-imports": "5.2.2",
     "@types/node": "22.13.10",
     "clean-pkg-json": "1.2.1",
-    "consola": "3.4.1",
+    "consola": "3.4.2",
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
     "pkgroll": "2.11.2",
