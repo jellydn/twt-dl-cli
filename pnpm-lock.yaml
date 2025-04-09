@@ -67,8 +67,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       tsd:
-        specifier: 0.31.2
-        version: 0.31.2
+        specifier: 0.32.0
+        version: 0.32.0
       tsx:
         specifier: 4.19.3
         version: 4.19.3
@@ -613,8 +613,8 @@ packages:
       svelte:
         optional: true
 
-  '@tsd/typescript@5.4.5':
-    resolution: {integrity: sha512-saiCxzHRhUrRxQV2JhH580aQUZiKQUXI38FcAcikcfOomAil4G4lxT0RfrrKywoAYP/rqAdYXYmNRLppcd+hQQ==}
+  '@tsd/typescript@5.8.3':
+    resolution: {integrity: sha512-oKarNCN1QUhG148M88mtZdOlBZWWGcInquef+U8QL7gwJkRuNo5WS45Fjsd+3hM9cDJWGpqSZ4Oo097KDx4IWA==}
     engines: {node: '>=14.17'}
 
   '@types/conventional-commits-parser@5.0.1':
@@ -2061,8 +2061,8 @@ packages:
     resolution: {integrity: sha512-pkonvlKk8/ZuR0D5tLW8ljt5I8kmxp2XKymhepUeOdCEfKpZaktSArkLHZt76OB1ZvO9bssUsDty4SWhLvZpLg==}
     engines: {node: '>=0.10.0'}
 
-  tsd@0.31.2:
-    resolution: {integrity: sha512-VplBAQwvYrHzVihtzXiUVXu5bGcr7uH1juQZ1lmKgkuGNGT+FechUCqmx9/zk7wibcqR2xaNEwCkDyKh+VVZnQ==}
+  tsd@0.32.0:
+    resolution: {integrity: sha512-R5lBZCbxGBowOcW0gpQaiIjGYrG5NmU+PfFDKcc3zbtzWjML1o/zAwzdDnS2ZheSlPu9GW51azpFqEPUBq9DoQ==}
     engines: {node: '>=14.16'}
     hasBin: true
 
@@ -2691,7 +2691,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tsd/typescript@5.4.5': {}
+  '@tsd/typescript@5.8.3': {}
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
@@ -4134,9 +4134,9 @@ snapshots:
     dependencies:
       escape-string-regexp: 1.0.5
 
-  tsd@0.31.2:
+  tsd@0.32.0:
     dependencies:
-      '@tsd/typescript': 5.4.5
+      '@tsd/typescript': 5.8.3
       eslint-formatter-pretty: 4.1.0
       globby: 11.1.0
       jest-diff: 29.7.0
