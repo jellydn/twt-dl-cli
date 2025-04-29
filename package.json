@@ -56,9 +56,9 @@
     "nano-staged": "0.8.0",
     "pkgroll": "2.12.2",
     "prettier": "3.5.3",
-    "sort-package-json": "3.0.0",
+    "sort-package-json": "3.1.0",
     "tsd": "0.32.0",
-    "tsx": "4.19.3",
+    "tsx": "4.19.4",
     "typescript": "5.8.3",
     "vite": "6.3.3",
     "vitest": "3.1.2"
