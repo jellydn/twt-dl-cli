@@ -55,15 +55,15 @@
     "husky": "9.1.7",
     "nano-staged": "0.8.0",
     "pkgroll": "2.13.1",
-    "prettier": "3.5.3",
-    "sort-package-json": "3.2.1",
+    "prettier": "3.6.0",
+    "sort-package-json": "3.3.0",
     "tsd": "0.32.0",
     "tsx": "4.20.3",
     "typescript": "5.8.3",
     "vite": "6.3.5",
     "vitest": "3.2.4"
   },
-  "packageManager": "pnpm@10.12.1",
+  "packageManager": "pnpm@10.12.2",
   "tsd": {
     "directory": "tests"
   }
