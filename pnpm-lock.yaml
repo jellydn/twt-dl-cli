@@ -58,8 +58,8 @@ importers:
         specifier: 0.8.0
         version: 0.8.0
       pkgroll:
-        specifier: 2.15.0
-        version: 2.15.0(typescript@5.9.2)
+        specifier: 2.15.1
+        version: 2.15.1(typescript@5.9.2)
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -67,8 +67,8 @@ importers:
         specifier: 3.4.0
         version: 3.4.0
       tsd:
-        specifier: 0.32.0
-        version: 0.32.0
+        specifier: 0.33.0
+        version: 0.33.0
       tsx:
         specifier: 4.20.3
         version: 4.20.3
@@ -718,8 +718,8 @@ packages:
       svelte:
         optional: true
 
-  '@tsd/typescript@5.8.3':
-    resolution: {integrity: sha512-oKarNCN1QUhG148M88mtZdOlBZWWGcInquef+U8QL7gwJkRuNo5WS45Fjsd+3hM9cDJWGpqSZ4Oo097KDx4IWA==}
+  '@tsd/typescript@5.9.2':
+    resolution: {integrity: sha512-mSMM0QtEPdMd+rdMDd17yCUYD4yI3pKHap89+jEZrZ3KIO5PhDofBjER0OtgHdvOXF74KMLO3fyD6k3Hz0v03A==}
     engines: {node: '>=14.17'}
 
   '@types/chai@5.2.2':
@@ -1907,8 +1907,8 @@ packages:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
 
-  pkgroll@2.15.0:
-    resolution: {integrity: sha512-decQDsHWE1BRVurrgxhJYtv0LncjynyMFGHMTCJiqd7gWO13u6JPM1GXzDjqx7LS9dd2C1xpmAW4S0VeGvC4Gg==}
+  pkgroll@2.15.1:
+    resolution: {integrity: sha512-nHBDDRzWT8KbugYIWPT5AahN1pUMg9Uxqlr3YiMmB0JRl91e1smspNN2k7aOMbjDbh7Q+mnE9JGjUiCeik/NQA==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -2226,8 +2226,8 @@ packages:
     resolution: {integrity: sha512-pkonvlKk8/ZuR0D5tLW8ljt5I8kmxp2XKymhepUeOdCEfKpZaktSArkLHZt76OB1ZvO9bssUsDty4SWhLvZpLg==}
     engines: {node: '>=0.10.0'}
 
-  tsd@0.32.0:
-    resolution: {integrity: sha512-R5lBZCbxGBowOcW0gpQaiIjGYrG5NmU+PfFDKcc3zbtzWjML1o/zAwzdDnS2ZheSlPu9GW51azpFqEPUBq9DoQ==}
+  tsd@0.33.0:
+    resolution: {integrity: sha512-/PQtykJFVw90QICG7zyPDMIyueOXKL7jOJVoX5pILnb3Ux+7QqynOxfVvarE+K+yi7BZyOSY4r+OZNWSWRiEwQ==}
     engines: {node: '>=14.16'}
     hasBin: true
 
@@ -2926,7 +2926,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tsd/typescript@5.8.3': {}
+  '@tsd/typescript@5.9.2': {}
 
   '@types/chai@5.2.2':
     dependencies:
@@ -4108,7 +4108,7 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  pkgroll@2.15.0(typescript@5.9.2):
+  pkgroll@2.15.1(typescript@5.9.2):
     dependencies:
       '@rollup/plugin-alias': 5.1.1(rollup@4.46.2)
       '@rollup/plugin-commonjs': 28.0.6(rollup@4.46.2)
@@ -4463,9 +4463,9 @@ snapshots:
     dependencies:
       escape-string-regexp: 1.0.5
 
-  tsd@0.32.0:
+  tsd@0.33.0:
     dependencies:
-      '@tsd/typescript': 5.8.3
+      '@tsd/typescript': 5.9.2
       eslint-formatter-pretty: 4.1.0
       globby: 11.1.0
       jest-diff: 29.7.0
