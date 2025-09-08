@@ -60,7 +60,7 @@
     "tsd": "0.33.0",
     "tsx": "4.20.5",
     "typescript": "5.9.2",
-    "vite": "6.3.5",
+    "vite": "6.3.6",
     "vitest": "3.2.4"
   },
   "packageManager": "pnpm@10.15.1",
