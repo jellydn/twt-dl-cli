@@ -61,7 +61,7 @@
     "tsx": "4.20.6",
     "typescript": "5.9.3",
     "vite": "6.4.1",
-    "vitest": "3.2.4"
+    "vitest": "4.0.6"
   },
   "packageManager": "pnpm@10.20.0",
   "tsd": {
