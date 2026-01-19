@@ -63,7 +63,7 @@
     "vite": "6.4.1",
     "vitest": "3.2.4"
   },
-  "packageManager": "pnpm@10.28.0",
+  "packageManager": "pnpm@10.28.1",
   "tsd": {
     "directory": "tests"
   }
