@@ -58,8 +58,8 @@ importers:
         specifier: 0.9.0
         version: 0.9.0
       pkgroll:
-        specifier: 2.26.2
-        version: 2.26.2(typescript@5.9.3)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
+        specifier: 2.26.3
+        version: 2.26.3(typescript@5.9.3)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
       prettier:
         specifier: 3.8.1
         version: 3.8.1
@@ -2170,8 +2170,8 @@ packages:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
 
-  pkgroll@2.26.2:
-    resolution: {integrity: sha512-0SZM7Tpt2/AF16ZwbiJwUEGFd/r7yOJ5URqR4rriWDBloISdsuLcGpN/fP8wqgqp69SfDz/Z/gwMttvPryHrAw==}
+  pkgroll@2.26.3:
+    resolution: {integrity: sha512-Ed+uTZXaYHiwPCf4nH32toY/x7PkqMpeDAmcO0GtAQsgdCGGTXMt/Y8fdq8q9MwEzn0S+qeSnyL13PQ/1wZImg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -2275,8 +2275,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rollup-plugin-import-trace@1.0.0:
-    resolution: {integrity: sha512-byUjwhEc42qnbcTOZ7E0cDDNidkKkN4VwoW5dknA/61F0c60v2l2ktPraUH4+ehhZ/L/yS/Exry/q8gz0hEZOQ==}
+  rollup-plugin-import-trace@1.0.1:
+    resolution: {integrity: sha512-dWOKrdYba2BXDJh82kkuM4pAR3M6r7WFp6vbVxAgvLfug2WniMFAg2uZ5sNQ/8CoQWo5l2N5EXDG8+QClKk1YQ==}
     engines: {node: '>=20.20.0'}
     peerDependencies:
       rollup: ^3.0.0 || ^4.0.0
@@ -4551,7 +4551,7 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  pkgroll@2.26.2(typescript@5.9.3)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)):
+  pkgroll@2.26.3(typescript@5.9.3)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)):
     dependencies:
       '@rollup/plugin-alias': 6.0.0(rollup@4.57.1)
       '@rollup/plugin-commonjs': 29.0.0(rollup@4.57.1)
@@ -4562,7 +4562,7 @@ snapshots:
       esbuild: 0.26.0
       magic-string: 0.30.21
       rollup: 4.57.1
-      rollup-plugin-import-trace: 1.0.0(rollup@4.57.1)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
+      rollup-plugin-import-trace: 1.0.1(rollup@4.57.1)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
       rollup-pluginutils: 2.8.2
       yaml: 2.8.2
     optionalDependencies:
@@ -4666,7 +4666,7 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  rollup-plugin-import-trace@1.0.0(rollup@4.57.1)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)):
+  rollup-plugin-import-trace@1.0.1(rollup@4.57.1)(vite@6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)):
     optionalDependencies:
       rollup: 4.57.1
       vite: 6.4.1(@types/node@22.19.11)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)
