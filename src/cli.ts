@@ -21,7 +21,7 @@ const argv = cli({
 
   // Define parameters
   parameters: [
-    "<twitter url>", // Twitter URL is required
+    "<twitter urls...>", // Twitter URLs are required
   ],
 
   // Define flags/options
@@ -36,10 +36,22 @@ const argv = cli({
 });
 
 async function main() {
-  const video = await downloadVideo(argv._?.twitterUrl);
-  console.log(video);
-  if (argv.flags.download === "yes" && video) {
-    await downloadFile(video);
+  const urls = argv._.twitterUrls;
+  for (const url of urls) {
+    console.log(`Processing URL: ${url}`);
+    const mediaUrls = await downloadVideo(url);
+    
+    if (mediaUrls && mediaUrls.length > 0) {
+      console.log(`Found ${mediaUrls.length} media items.`);
+      for (const mediaUrl of mediaUrls) {
+        console.log(`- ${mediaUrl}`);
+        if (argv.flags.download === "yes") {
+          await downloadFile(mediaUrl);
+        }
+      }
+    } else {
+      console.log("No media found for this URL.");
+    }
   }
 }
 
