@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
-> The easiest way to download any Twitter video from CLI
+> The easiest way to download any Twitter video or photo from CLI, including full threads!
 
 Inspired by [egoist/download-twitter-video: The easiest way to download any Twitter video](https://github.com/egoist/download-twitter-video).
 
@@ -44,11 +44,19 @@ npx twt-dl-cli@latest --help
 npx twt-dl-cli@latest https://twitter.com/mattpocockuk/status/1592130978234900484
 ```
 
+### Download a Thread (Multiple URLs):
+
+You can pass multiple URLs to download all videos/photos from a thread or multiple tweets at once:
+
+```sh
+npx twt-dl-cli@latest https://twitter.com/user/status/123 https://twitter.com/user/status/456
+```
+
 ![twt-dl-cli](usage.png)
 
 ### TODO
 
-- [ ] Download all videos on twitter thread
+- [x] Download all videos on twitter thread
 
 ## Author
 

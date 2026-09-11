@@ -7,7 +7,7 @@ import { createWriteStream } from "node:fs";
 import { join } from "node:path";
 import process from "node:process";
 
-export async function downloadVideo(url?: string) {
+export async function downloadVideo(url?: string): Promise<string[]> {
   if (!url) {
     throw new Error("Missing URL");
   }
@@ -20,7 +20,10 @@ export async function downloadVideo(url?: string) {
     throw new Error("Not a Twitter URL");
   }
 
-  return fetch(newUrl.replace("twitter.com", "vxtwitter.com"), {
+  // Use the API endpoint for JSON response
+  const apiUrl = newUrl.replace("twitter.com", "api.vxtwitter.com");
+
+  return fetch(apiUrl, {
     headers: {
       "User-Agent": "TelegramBot (like TwitterBot)",
     },
@@ -29,20 +32,13 @@ export async function downloadVideo(url?: string) {
       if (!response.ok) {
         throw new Error(`Failed to fetch tweet: ${response.status}`);
       }
-
-      return response.text();
+      return response.json();
     })
-    .then((html) => {
-      const $ = load(html);
-
-      const getMetaContent = (name: string) => {
-        const value =
-          $(`meta[name="twitter:${name}"]`).attr("content") ??
-          $(`meta[property="og:${name}"]`).attr("content");
-        return value;
-      };
-
-      return getMetaContent("video");
+    .then((data: any) => {
+      if (data && data.mediaURLs && data.mediaURLs.length > 0) {
+        return data.mediaURLs;
+      }
+      return [];
     });
 }
 
@@ -50,13 +46,19 @@ export async function downloadVideo(url?: string) {
 // TODO: add output directory if needed
 export async function downloadFile(
   fileUrl: string,
-  outputFile = join(process.env.PWD ?? process.cwd(), `${Date.now()}.mp4`),
+  outputFile?: string,
 ) {
   const spinner = ora("Downloading file...").start();
 
-  const writeStream = createWriteStream(outputFile);
+  let finalOutputFile = outputFile;
+  if (!finalOutputFile) {
+    const ext = fileUrl.split(".").pop()?.split("?")[0] || "mp4";
+    finalOutputFile = join(process.env.PWD ?? process.cwd(), `${Date.now()}.${ext}`);
+  }
+
+  const writeStream = createWriteStream(finalOutputFile);
   writeStream.on("finish", () => {
-    spinner.succeed(`File saved as ${outputFile}`);
+    spinner.succeed(`File saved as ${finalOutputFile}`);
   });
 
   writeStream.on("error", (error) => {
