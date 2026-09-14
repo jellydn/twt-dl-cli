@@ -1,8 +1,8 @@
-import { cli } from "cleye";
+import { cli } from 'cleye';
 
-import { downloadFile, downloadVideo } from ".";
+import { runBatch } from './batch';
 
-const downloadOptions = ["yes", "no"] as const;
+const downloadOptions = ['yes', 'no'] as const;
 
 type Downloads = (typeof downloadOptions)[number];
 
@@ -17,11 +17,11 @@ function downloadSchema(download: Downloads) {
 
 // Parse argv
 const argv = cli({
-  name: "twt-dl-cli",
+  name: 'twt-dl-cli',
 
   // Define parameters
   parameters: [
-    "<twitter url>", // Twitter URL is required
+    '<twitter urls...>', // Twitter URLs are required
   ],
 
   // Define flags/options
@@ -29,18 +29,20 @@ const argv = cli({
     // Parses `--download` as a string
     download: {
       type: downloadSchema,
-      description: "Allow to download video (yes/no)",
-      default: "yes",
+      description: 'Allow to download video (yes/no)',
+      default: 'yes',
     },
   },
 });
 
 async function main() {
-  const video = await downloadVideo(argv._?.twitterUrl);
-  console.log(video);
-  if (argv.flags.download === "yes" && video) {
-    await downloadFile(video);
-  }
+  process.exitCode = await runBatch(
+    argv._.twitterUrls,
+    argv.flags.download === 'yes',
+  );
 }
 
-main().catch(console.error);
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

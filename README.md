@@ -3,14 +3,13 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Version](https://img.shields.io/npm/v/twt-dl-cli.svg)](https://www.npmjs.com/package/twt-dl-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: jellydn](https://img.shields.io/twitter/follow/jellydn.svg?style=social)](https://twitter.com/jellydn)
 
-> The easiest way to download any Twitter video from CLI
+> Download videos and photos from Twitter/X tweet URLs with the CLI.
 
 Inspired by [egoist/download-twitter-video: The easiest way to download any Twitter video](https://github.com/egoist/download-twitter-video).
 
@@ -44,11 +43,23 @@ npx twt-dl-cli@latest --help
 npx twt-dl-cli@latest https://twitter.com/mattpocockuk/status/1592130978234900484
 ```
 
+### Download a Thread (Multiple URLs):
+
+Pass multiple URLs to download videos/photos from several tweets. For a thread, supply each tweet URL; the CLI does not discover thread replies automatically.
+
+```sh
+npx twt-dl-cli@latest https://twitter.com/user/status/123 https://twitter.com/user/status/456
+```
+
 ![twt-dl-cli](usage.png)
 
-### TODO
+If a URL fails, the CLI reports it and continues with later URLs. The final exit code is 1 if any URL fails, or 0 if all URLs succeed. A tweet with no media is not a failure.
 
-- [ ] Download all videos on twitter thread
+### Library API
+
+`downloadVideo(url)` now returns `Promise<string[]>`, not a single URL or `undefined`. It returns all media URLs for one tweet, or an empty array when the tweet has no media.
+
+`downloadFile(mediaUrl, outputFile?)` returns `Promise<WriteStream>` only after the file finishes writing. It rejects on download or write errors. Without `outputFile`, it uses a unique filename in the current directory. An explicit output path is preserved and overwrites an existing file.
 
 ## Author
 
@@ -88,3 +99,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+Contributor records are stored in `.all-contributorsrc`; the badge and table above are generated from those records. Keep the existing records when updating the table.
+
+To recognize a confirmed contribution, comment on an issue or pull request with `@all-contributors please add @USERNAME for CONTRIBUTION_TYPE`. Replace the placeholders with the contributor's GitHub login and the types from the [emoji key](https://allcontributors.org/docs/en/emoji-key). Do not add unverified contributions.
+
+A repository owner must [install the All Contributors GitHub App](https://github.com/apps/allcontributors) for this repository if the bot does not respond. As a local alternative, run `pnpm dlx all-contributors-cli generate` to regenerate the README from the existing configuration, then review the diff before committing.
