@@ -1,8 +1,7 @@
 # Welcome to twt-dl-cli 👋
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Version](https://img.shields.io/npm/v/twt-dl-cli.svg)](https://www.npmjs.com/package/twt-dl-cli)
@@ -89,6 +88,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://productsway.com/"><img src="https://avatars.githubusercontent.com/u/870029?v=4?s=100" width="100px;" alt="Dung Duc Huynh (Kaka)"/><br /><sub><b>Dung Duc Huynh (Kaka)</b></sub></a><br /><a href="https://github.com/jellydn/twt-dl-cli/commits?author=jellydn" title="Code">💻</a> <a href="https://github.com/jellydn/twt-dl-cli/commits?author=jellydn" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/yetone"><img src="https://avatars.githubusercontent.com/u/1206493?v=4?s=100" width="100px;" alt="yetone"/><br /><sub><b>yetone</b></sub></a><br /><a href="https://github.com/jellydn/twt-dl-cli/commits?author=yetone" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://devosfera.vercel.app"><img src="https://avatars.githubusercontent.com/u/101137391?v=4?s=100" width="100px;" alt="Andrés Ujpán"/><br /><sub><b>Andrés Ujpán</b></sub></a><br /><a href="https://github.com/jellydn/twt-dl-cli/commits?author=0xdres" title="Code">💻</a> <a href="https://github.com/jellydn/twt-dl-cli/commits?author=0xdres" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
