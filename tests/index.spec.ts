@@ -52,12 +52,15 @@ test.each(['twitter.com', 'x.com'])(
   },
 );
 
-test('returns an empty list when there is no media', async () => {
-  vi.mocked(fetch).mockResolvedValue(new Response('{}'));
-  expect(await downloadVideo('https://twitter.com/user/status/123')).toEqual(
-    [],
-  );
-});
+test.each(['{}', 'null', '{"mediaURLs":[]}'])(
+  'returns an empty list for %s',
+  async (body) => {
+    vi.mocked(fetch).mockResolvedValue(new Response(body));
+    expect(await downloadVideo('https://twitter.com/user/status/123')).toEqual(
+      [],
+    );
+  },
+);
 
 test('waits for stream completion and keeps an explicit output path', async () => {
   const source = new PassThrough();

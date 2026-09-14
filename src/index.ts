@@ -35,12 +35,7 @@ export async function downloadVideo(url?: string): Promise<string[]> {
       }
       return response.json();
     })
-    .then((data: any) => {
-      if (data?.mediaURLs?.length > 0) {
-        return data.mediaURLs;
-      }
-      return [];
-    });
+    .then((data: { mediaURLs?: string[] } | null) => data?.mediaURLs ?? []);
 }
 
 // TODO: separate spinner with download function
