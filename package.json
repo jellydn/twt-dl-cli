@@ -59,7 +59,7 @@
     "prettier": "3.9.8",
     "sort-package-json": "4.0.0",
     "tsd": "0.33.0",
-    "tsx": "4.23.13",
+    "tsx": "4.23.15",
     "typescript": "7.0.2",
     "vite": "6.4.3",
     "vitest": "3.2.7"
