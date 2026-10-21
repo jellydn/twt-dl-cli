@@ -44,7 +44,7 @@
     "ora": "9.4.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
+    "@biomejs/biome": "2.6.2",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@skypack/package-check": "0.2.2",
@@ -61,7 +61,7 @@
     "tsd": "0.33.0",
     "tsx": "4.23.15",
     "typescript": "7.0.2",
-    "vite": "6.4.4",
+    "vite": "6.4.5",
     "vitest": "3.2.7"
   },
   "packageManager": "pnpm@10.34.7",
