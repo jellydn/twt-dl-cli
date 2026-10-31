@@ -41,7 +41,7 @@
     "cleye": "2.7.0",
     "cross-fetch": "4.1.0",
     "download": "8.0.0",
-    "ora": "9.4.1"
+    "ora": "10.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.4",
