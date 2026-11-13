@@ -61,8 +61,8 @@ importers:
         specifier: 1.0.2
         version: 1.0.2
       pkgroll:
-        specifier: 2.29.0
-        version: 2.29.0(@typescript/typescript6@6.0.2)(typescript@7.0.2)(vite@6.4.6(@types/node@22.20.5)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1))
+        specifier: 2.29.1
+        version: 2.29.1(@typescript/typescript6@6.0.2)(typescript@7.0.2)(vite@6.4.6(@types/node@22.20.5)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1))
       prettier:
         specifier: 3.10.1
         version: 3.10.1
@@ -2171,8 +2171,8 @@ packages:
     resolution: {integrity: sha512-MnUuEycAemtSaeFSjXKW/aroV7akBbY+Sv+RkyqFjgAe73F+MR0TBWKBRDkmfWq/HiFmdavfZ1G7h4SPZXaCSg==}
     engines: {node: '>=0.10.0'}
 
-  pkgroll@2.29.0:
-    resolution: {integrity: sha512-nTWWA9J9mClHnwzDonKtgpP3iZxWNHo6YH4Jo6BfsRNv54v35GtqNFVG6E+WrsSNLiWu8es6PyjSH/EiBDex1g==}
+  pkgroll@2.29.1:
+    resolution: {integrity: sha512-2zQ1E1tPVxZtQz9wN+uTetJZKwj548xQGyAlWgVkhge31pJBt4R8poDrkWVvuYNkosrjpL8i6op5gBGWJyOEQg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -4543,7 +4543,7 @@ snapshots:
 
   pinkie@2.0.4: {}
 
-  pkgroll@2.29.0(@typescript/typescript6@6.0.2)(typescript@7.0.2)(vite@6.4.6(@types/node@22.20.5)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)):
+  pkgroll@2.29.1(@typescript/typescript6@6.0.2)(typescript@7.0.2)(vite@6.4.6(@types/node@22.20.5)(jiti@2.6.1)(tsx@4.23.15)(yaml@2.9.1)):
     dependencies:
       '@rollup/plugin-alias': 6.0.1(rollup@4.68.0)
       '@rollup/plugin-commonjs': 29.0.3(rollup@4.68.0)
