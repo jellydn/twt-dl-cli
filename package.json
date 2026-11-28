@@ -45,8 +45,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.9",
-    "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
+    "@commitlint/cli": "21.3.0",
+    "@commitlint/config-conventional": "21.3.0",
     "@skypack/package-check": "0.2.2",
     "@trivago/prettier-plugin-sort-imports": "6.0.3",
     "@types/node": "22.20.7",
